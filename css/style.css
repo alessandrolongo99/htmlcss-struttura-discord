@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-color: aqua;
+    padding: 15px 15%;
+}
+
+header div{
+    background-color: rgb(255, 166, 0);
+    border-style: dashed;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    text-align: center;
+    flex-basis: 800px;
+}
+
+.logo{
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.login{
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
