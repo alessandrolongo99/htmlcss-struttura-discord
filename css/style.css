@@ -124,3 +124,32 @@ header div{
     flex-basis: 1000px;
     height: 800px;
 }
+
+/* footer */
+footer{
+    background-color: rgb(30, 30, 30);
+    padding: 50px;
+    border-bottom: 2px solid grey;
+}
+
+footer > div{
+    height: 500px;
+    border-style: dashed;
+}
+
+footer .sx{
+    background-color: rgb(255, 100, 242);
+    flex-basis: 400px;
+}
+
+footer .dx{
+    flex-basis: 600px;
+}
+
+.col{
+    background-color: rgb(0, 153, 255);
+    align-items: stretch;
+    flex-grow: 1;
+    border-style: dashed;
+    border-color: white;
+}
