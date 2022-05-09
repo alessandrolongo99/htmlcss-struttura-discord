@@ -38,3 +38,89 @@ header div{
     padding-right: 10px;
 }
 
+/* main */
+.top{
+    background-color: blue;
+}
+
+.top div{
+    width: 50%;
+    height: 400px;
+    background-color: pink;
+    margin: 50px;
+    border-style: dashed;
+}
+
+/* center1 */
+.center1{
+    padding: 50px;
+}
+
+.center1 div{
+    height: 500px;
+    border-style: dashed;
+}
+
+.center1 .sx{
+    flex-basis: 600px;
+    background-color: rgb(100, 100, 255);
+}
+
+.center1 .dx{
+    flex-basis: 400px;
+    background-color: rgb(255, 100, 242);
+}
+
+/* center2 */
+.center2{
+    padding: 50px;
+    background-color: rgb(170, 170, 170);
+}
+
+.center2 div{
+    height: 500px;
+    border-style: dashed;
+}
+
+.center2 .sx{
+    flex-basis: 400px;
+    background-color: rgb(255, 100, 242);
+}
+
+.center2 .dx{
+    flex-basis: 600px;
+    background-color: rgb(100, 100, 255);
+}
+
+/* center3 */
+.center3{
+    padding: 50px;
+}
+
+.center3 div{
+    height: 500px;
+    border-style: dashed;
+}
+
+.center3 .sx{
+    flex-basis: 600px;
+    background-color: rgb(100, 100, 255);
+}
+
+.center3 .dx{
+    flex-basis: 400px;
+    background-color: rgb(255, 100, 242);
+}
+
+/* bot */
+.bot{
+    background-color: rgb(170, 170, 170);
+    padding: 50px;
+}
+
+.bot div{
+    background-color: green;
+    border-style: dashed;
+    flex-basis: 1000px;
+    height: 800px;
+}
