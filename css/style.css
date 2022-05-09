@@ -126,23 +126,27 @@ header div{
 }
 
 /* footer */
+/* foot */
 footer{
     background-color: rgb(30, 30, 30);
-    padding: 50px;
-    border-bottom: 2px solid grey;
 }
 
-footer > div{
+.foot{
+    padding: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.foot > div{
     height: 500px;
     border-style: dashed;
 }
 
-footer .sx{
+.foot .sx{
     background-color: rgb(255, 100, 242);
     flex-basis: 400px;
 }
 
-footer .dx{
+.foot .dx{
     flex-basis: 600px;
 }
 
@@ -152,4 +156,30 @@ footer .dx{
     flex-grow: 1;
     border-style: dashed;
     border-color: white;
+}
+
+/* buttons */
+.buttons{
+    background-color: aqua;
+    margin: 50px auto;
+    margin-bottom: 0;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.buttons > *{
+    background-color: rgb(255, 166, 0);
+    padding: 10px;
+    border-style: dashed;
+    margin: 10px 0;
 }
